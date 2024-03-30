@@ -59,7 +59,7 @@ with col16:
     acidity = st.selectbox('Acidity', option)
 
 
-if st.button('Predict Probability'):
+if st.button('Predict Diseases'):
     if fatigue == 'Yes':
         fatigue = 1
     if fatigue == 'No':
